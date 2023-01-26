@@ -1,5 +1,5 @@
 import Header from '../components/header';
-import { PageHeader } from 'antd';
+// import { PageHeader } from 'antd';
 export default function AboutPage() {
   return (
     <>
@@ -8,7 +8,7 @@ export default function AboutPage() {
 
       <div>
         <div className="container">
-          <PageHeader />
+          <div children={'Title'} />
         </div>
       </div>
     </>
